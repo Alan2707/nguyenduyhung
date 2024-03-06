@@ -1,0 +1,194 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+@font-face {
+    font-family: DVN;
+    src: url(storage/Font/DVN-Fredoka-Bold.ttf);
+}
+
+.contact-container{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contact{
+    display: flex; /*phong to o text*/
+    flex-direction: column; /*cho cac o text nam doc*/
+    align-items: start;
+    gap: 20px; /*Tach cac form text*/
+    position: relative;
+    top: 50px;
+}
+
+.contact-title h2{
+    font-family: DVN;
+    font-size: 40px;
+    font-weight: 600;
+    color: rgba(207,158,201);
+}
+
+.contact-title hr{
+    border: none;
+    width: 120px;
+    height: 5px;
+    background-color: orange;
+    border-radius: 10px;
+    position: relative;
+    bottom: 20px;
+    right: 50px;
+}
+
+.contact-inputs{
+    width: 350px;
+    height: 50px;
+    border: none;
+    outline: none; /*xoa thanh den khi click vao*/
+    border-radius: 50px;
+    padding-left: 20px;
+    color: #666;
+    font-weight: 500;
+    position: relative;
+    bottom: 20px;
+}
+
+#submit-input{
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    background-color: orange;
+    font-family: DVN;
+    position: relative;
+    bottom: 20px;
+    font-size: 20px;
+}
+
+.contact textarea{
+    width: 350px;
+    height: 120px;
+    border-radius: 20px;
+} 
+
+#tiktok-icon{
+    width: 50px;
+    height: auto;
+}
+
+#instagram-icon{
+    width: 70px;
+    height: auto;
+    position: relative;
+    top: 10px;
+}
+
+#facebook-icon{
+    width: 70px;
+    height: auto;
+    position: relative;
+    top: 10px;
+    right: 9px;
+}
+
+#zalo-icon{
+    width: 100px;
+    height: auto;
+    position: relative;
+    top: 5px;
+    right: 32px;
+} 
+
+@media screen and (max-width: 768px) { 
+    body{
+        background-image: url("storage/Image/background-iphone.jpg");
+    }
+
+    .contact-title h2{
+        font-family: DVN;
+        font-size: 40px;
+        font-weight: 600;
+        color: rgba(207,158,201);
+        position: relative;
+        left: 50px;
+    }
+    
+    .contact-title hr{
+        border: none;
+        width: 120px;
+        height: 5px;
+        background-color: orange;
+        border-radius: 10px;
+        position: relative;
+        bottom: 20px;
+        left: 5px;
+    }
+
+    .contact-inputs{
+        width: 300px;
+        height: 50px;
+        border: none;
+        outline: none; /*xoa thanh den khi click vao*/
+        border-radius: 50px;
+        padding-left: 20px;
+        color: #666;
+        font-weight: 500;
+        position: relative;
+        
+    }
+    
+    #submit-input{
+        width: 200px;
+        height: 50px;
+        border: none;
+        border-radius: 50px;
+        background-color: orange;
+        font-family: DVN;
+        position: relative;
+        bottom: 20px;
+        font-size: 20px;
+        left: 60px;
+    }
+    
+    .contact textarea{
+        width: 300px;
+        height: 120px;
+        border-radius: 20px;
+    } 
+    
+    #tiktok-icon{
+        width: 50px;
+        height: auto;
+    }
+    
+    .contact-icon{
+        position: relative;
+        left: 40px;
+    }
+
+    #instagram-icon{
+        width: 70px;
+        height: auto;
+        position: relative;
+        top: 10px;
+    }
+    
+    #facebook-icon{
+        width: 70px;
+        height: auto;
+        position: relative;
+        top: 10px;
+        right: 9px;
+    }
+    
+    #zalo-icon{
+        width: 100px;
+        height: auto;
+        position: relative;
+        top: 5px;
+        right: 32px;
+    }
+} 

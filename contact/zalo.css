@@ -1,0 +1,9 @@
+@media screen and (max-width: 500px){
+    #zalo-back{
+        position: relative;
+        top: 120px;
+        width: 350px;
+        height: auto;
+    }
+
+}    
